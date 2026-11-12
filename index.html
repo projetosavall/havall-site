@@ -95,7 +95,7 @@ section.block{padding:88px 0}
 .laudo{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:40px}
 .laudo h2{font-size:clamp(26px,3vw,34px);margin:12px 0}
 .laudo p{color:var(--muted);margin:0 0 20px}
-.laudo img{border-radius:10px;height:280px;width:100%;object-fit:cover}
+.laudo img,.laudo-art{border-radius:10px;width:100%;height:auto;display:block}
 @media(max-width:860px){.laudo{grid-template-columns:1fr;padding:24px}}
 .contact{background:var(--slate);color:#fff}
 .contact .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center;padding-top:88px;padding-bottom:88px}
@@ -265,7 +265,25 @@ Enviar meu projeto pelo WhatsApp</a>
 <p>Avaliação de estruturas de concreto e pré-moldadas: sinistros, fissuras, patologias e capacidade de carga. Laudo técnico assinado, com diagnóstico e recomendação de reforço quando necessário.</p>
 <a class="btn btn-acc" href="https://wa.me/5551983463037?text=Ol%C3%A1!%20Preciso%20de%20um%20laudo%20pericial%20de%20estrutura." target="_blank" rel="noopener">Solicitar laudo</a>
 </div>
-<img loading="lazy" src="https://static.wixstatic.com/media/0e92b4_bc28aa01fb4b451ea641f9c4b7279c9a~mv2.jpg/v1/fit/w_900,h_700,q_80/laudo.jpg" alt="Pilares e vigas de concreto para inspeção estrutural">
+<svg class="laudo-art" viewBox="0 0 440 300" role="img" aria-label="Inspeção de pórtico de concreto com fissura marcada">
+<rect width="440" height="300" rx="10" fill="#F2EEE8"/>
+<g stroke="#2F363D" stroke-width="2" fill="#E3DDD3">
+<rect x="70" y="70" width="34" height="190"/><rect x="300" y="70" width="34" height="190"/>
+<rect x="56" y="50" width="292" height="34"/>
+</g>
+<path d="M188 84 l6 14 -5 9 7 13 -4 10" stroke="#B4532A" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M88 160 l5 9 -4 8 6 10" stroke="#B4532A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<circle cx="196" cy="108" r="34" fill="none" stroke="#B4532A" stroke-width="3"/>
+<line x1="220" y1="132" x2="252" y2="166" stroke="#B4532A" stroke-width="7" stroke-linecap="round"/>
+<g font-family="Inter,Arial,sans-serif" font-size="12" fill="#2F363D">
+<rect x="250" y="176" width="150" height="88" rx="8" fill="#fff" stroke="#D9D2C7"/>
+<text x="264" y="198" font-weight="700">Laudo técnico</text>
+<text x="264" y="218">✓ Fissuras e patologias</text>
+<text x="264" y="236">✓ Capacidade de carga</text>
+<text x="264" y="254">✓ Reforço recomendado</text>
+</g>
+<line x1="40" y1="260" x2="400" y2="260" stroke="#2F363D" stroke-width="2"/>
+</svg>
 </div>
 </div>
 </section>
